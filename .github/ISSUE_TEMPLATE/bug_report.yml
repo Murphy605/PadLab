@@ -27,7 +27,8 @@ body:
     id: area
     attributes:
       label: "问题类型 / Issue area"
-      description: "选择最接近的一项即可。Choose the closest match."
+      description: "可选择一个或多个相关范围。You may select one or more relevant areas."
+      multiple: true
       options:
         - "安装或启动 / Installation or startup"
         - "手柄连接或识别 / Device connection or detection"
