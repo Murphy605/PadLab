@@ -1,0 +1,158 @@
+name: "💡 Feature Request / 功能建议"
+description: "Suggest a new feature or improvement for PadLab｜提出新功能或改进建议"
+title: "[Feature] "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的建议。
+
+        Thank you for your suggestion.
+
+        中文或 English 均可，不需要同时填写两种语言。
+        Please use whichever language is more convenient for you.
+
+        不需要提供代码，也不需要设计完整的实现方案。
+        与其只告诉我们“加一个 XXX”，更重要的是说明你为什么需要它、准备怎么使用它，以及希望最终解决什么问题。
+
+        You do not need to provide code or a complete technical design.
+        Rather than only saying "add XXX", it is more useful to explain why you need it, how you would use it, and what problem you want it to solve.
+
+        > 请尽量一个 Issue 只讨论一个功能或一组紧密相关的功能。
+        >
+        > Please keep each issue focused on one feature or one closely related group of changes.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "功能范围 / Feature area"
+      description: "选择最接近的一项即可。Choose the closest match."
+      options:
+        - "体感或陀螺仪 / Motion or gyro"
+        - "三轴或六轴校准 / Calibration"
+        - "按键、输入或控制 / Buttons, input or controls"
+        - "Profile 或自动切换 / Profiles or auto-switching"
+        - "游戏兼容性 / Game compatibility"
+        - "设备连接或识别 / Device connection or detection"
+        - "界面或交互 / UI or UX"
+        - "语言或本地化 / Localization"
+        - "Receiver Firmware Patcher"
+        - "诊断、日志或测试工具 / Diagnostics, logs or testing tools"
+        - "其他 / Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: "使用场景或当前问题 / Use case or problem"
+      description: |
+        先说你为什么需要这个功能。
+
+        请描述实际使用场景、现在遇到的不方便、限制，或者目前无法实现的事情。
+
+        Explain why you need this feature.
+
+        Describe the real-world use case, current limitation, inconvenience, or something you currently cannot do.
+      placeholder: |
+        例如：
+        我在……情况下经常需要……
+        目前必须……
+        所以我希望可以……
+
+        Example:
+        When I use PadLab for...
+        I currently have to...
+        It would be useful if...
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired
+    attributes:
+      label: "希望达到什么效果？ / Desired outcome"
+      description: |
+        描述你希望 PadLab 最终能够做到什么。
+
+        不需要考虑具体代码怎么实现，只需要描述用户侧希望看到的结果。
+
+        Describe what you would like PadLab to be able to do.
+
+        You do not need to design the implementation. Focus on the behavior or result you want as a user.
+      placeholder: |
+        例如：
+        我希望能够……
+        完成后应该可以……
+
+        Example:
+        I would like to be able to...
+        The result should allow me to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: "你想到的方案 / Suggested approach"
+      description: |
+        如果你已经有具体想法，可以写在这里。
+
+        例如按钮放在哪里、交互方式、控制逻辑、类似软件的实现方式等。
+
+        这不是必填项，也不代表最终一定会按这个方案实现。
+
+        If you already have a specific idea, describe it here.
+
+        This may include UI ideas, behavior, control logic, or examples from other software.
+
+        This is optional and does not mean the final implementation must follow this approach.
+    validations:
+      required: false
+
+  - type: input
+    id: game
+    attributes:
+      label: "涉及的游戏或程序 / Related game or application"
+      description: "如果建议与特定游戏或程序有关，可以填写。Leave blank if not application-specific."
+      placeholder: "例如 / Example: Game or application name"
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: "目前有没有替代办法？ / Current workaround"
+      description: |
+        如果你现在已经在用某种临时方案，可以简单说一下。
+        没有的话直接留空即可。
+
+        If you currently use a workaround, briefly describe it.
+        Leave this blank if there is none.
+    validations:
+      required: false
+
+  - type: upload
+    id: supporting-material
+    attributes:
+      label: "截图、视频或参考资料 / Screenshots, video or supporting material"
+      description: |
+        如果截图、录屏、界面草图或其他资料能更直观地说明你的想法，可以上传。
+
+        Upload screenshots, videos, mockups, or other material if they help explain the request.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.mp4,.mov,.webm,.pdf"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "其他补充 / Additional context"
+      description: |
+        其他没有被上面覆盖的信息、参考链接或说明可以放这里。
+
+        Add any other context, references, or links here.
+    validations:
+      required: false
