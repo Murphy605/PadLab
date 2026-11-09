@@ -1,0 +1,215 @@
+name: "🐛 Bug / 问题反馈"
+description: "Report a PadLab / EasySMX D10 issue｜反馈 PadLab / EasySMX D10 使用问题"
+title: "[Bug] "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈问题。
+
+        Thank you for reporting an issue.
+
+        中文或 English 均可，不需要同时填写两种语言。
+        Please use whichever language is more convenient for you.
+
+        请尽量填写你实际确认的信息；不知道的项目可以写“不知道 / Unknown”，不要为了填满表单而猜测。
+
+        Please provide information you have actually confirmed. If something is unknown, write `Unknown` rather than guessing.
+
+        > ⚠️ 本仓库为公开仓库。提交的 Issue、截图、日志及其他附件可能公开可见。
+        >
+        > This is a public repository. Issues, screenshots, logs, and other uploaded files may be publicly accessible.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "问题类型 / Issue area"
+      description: "选择最接近的一项即可。Choose the closest match."
+      options:
+        - "安装或启动 / Installation or startup"
+        - "手柄连接或识别 / Device connection or detection"
+        - "体感或陀螺仪 / Motion or gyro"
+        - "三轴硬件校准 / 3-axis hardware calibration"
+        - "六轴校准 / 6-axis calibration"
+        - "按键或输入 / Buttons or input"
+        - "Profile 或自动切换 / Profiles or auto-switching"
+        - "游戏兼容性 / Game compatibility"
+        - "界面或语言 / UI or localization"
+        - "Receiver Firmware Patcher"
+        - "其他或不确定 / Other or unsure"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: "PadLab 版本 / PadLab version"
+      description: "填写你正在使用的版本、Release 或 Build。"
+      placeholder: "例如 / Example: v0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: "Windows 版本 / Windows version"
+      placeholder: "例如 / Example: Windows 11 24H2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection
+    attributes:
+      label: "连接方式 / Connection mode"
+      options:
+        - "有线 / Wired"
+        - "2.4G"
+        - "有线和 2.4G 都会发生 / Both wired and 2.4G"
+        - "与连接方式无关 / Not applicable"
+        - "不确定 / Unsure"
+    validations:
+      required: true
+
+  - type: input
+    id: controller-firmware
+    attributes:
+      label: "D10 手柄固件版本 / D10 controller firmware"
+      description: "如不知道可留空。Leave blank if unknown."
+      placeholder: "例如 / Example: 0.5xx"
+    validations:
+      required: false
+
+  - type: input
+    id: receiver-firmware
+    attributes:
+      label: "2.4G 接收器固件版本 / Receiver firmware"
+      description: "仅在相关时填写；不知道可留空。Only if relevant; leave blank if unknown."
+      placeholder: "例如 / Example: 0.5ae"
+    validations:
+      required: false
+
+  - type: input
+    id: game
+    attributes:
+      label: "涉及的游戏或程序 / Affected game or application"
+      description: "如果问题与特定游戏无关，可以留空。Leave blank if not application-specific."
+      placeholder: "例如 / Example: Game name"
+    validations:
+      required: false
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: "发生了什么？ / What happened?"
+      description: |
+        请描述你实际看到的现象。
+
+        Describe what you actually observed.
+      placeholder: |
+        例如：
+        开启体感后……
+        切换到 2.4G 后……
+
+        Example:
+        After enabling motion control...
+        After switching to 2.4G...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "如何复现？ / Steps to reproduce"
+      description: |
+        尽量写出能够触发问题的步骤。
+        如果无法稳定复现，请直接说明“无法稳定复现”，并描述问题通常在什么情况下出现。
+
+        Describe the steps that trigger the issue.
+        If it cannot be reproduced reliably, say so and describe when it usually occurs.
+      placeholder: |
+        1. 打开……
+        2. 连接……
+        3. 启用……
+        4. 出现……
+
+        1. Open...
+        2. Connect...
+        3. Enable...
+        4. The issue occurs...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "预期行为 / Expected behavior"
+      description: "你认为正常情况下应该发生什么？What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "出现频率 / Frequency"
+      options:
+        - "每次都会发生 / Always"
+        - "经常发生 / Often"
+        - "偶尔发生 / Sometimes"
+        - "只发生过一次 / Happened once"
+        - "不确定 / Unsure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: regression
+    attributes:
+      label: "以前是否正常？ / Did this work before?"
+      description: "用于判断是否可能属于版本回归。Helps identify possible regressions."
+      options:
+        - "以前正常，现在出问题 / Worked before"
+        - "从未正常工作 / Never worked"
+        - "不确定 / Unsure"
+        - "不适用 / Not applicable"
+    validations:
+      required: false
+
+  - type: upload
+    id: diagnostics
+    attributes:
+      label: "日志、诊断、截图或视频 / Logs, diagnostics, screenshots or video"
+      description: |
+        如果有，请上传与问题直接相关的日志、诊断包、截图或视频。
+
+        Please attach relevant logs, diagnostic packages, screenshots, or videos if available.
+
+        推荐直接上传 PadLab 导出的诊断 ZIP，而不是只截取一小段日志。
+        Prefer the exported PadLab diagnostics ZIP when available instead of screenshots of partial logs.
+
+        如果程序无法启动或无法取得日志，不需要为了这一项阻止提交。
+    validations:
+      required: false
+      accept: ".zip,.log,.json,.txt,.png,.jpg,.jpeg,.gif,.mp4,.mov,.webm"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "其他信息 / Additional context"
+      description: |
+        任何你认为有帮助、但上面没有覆盖的信息都可以放这里。
+
+        Add anything else that may help identify the issue.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "提交前确认 / Before submitting"
+      options:
+        - label: "我已检查附件和内容，没有包含密码、Token、私钥、账号凭据或其他不应公开的敏感信息。 / I have checked my submission and removed passwords, tokens, private keys, account credentials, and other sensitive information."
+          required: true
+        - label: "我知道这是公开 Issue，提交的文字和附件可能被任何人查看。 / I understand this is a public issue and submitted content or attachments may be visible to anyone."
+          required: true
