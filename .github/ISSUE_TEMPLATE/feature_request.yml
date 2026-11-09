@@ -29,7 +29,8 @@ body:
     id: area
     attributes:
       label: "功能范围 / Feature area"
-      description: "选择最接近的一项即可。Choose the closest match."
+      description: "可选择一个或多个相关范围。You may select one or more relevant areas."
+      multiple: true
       options:
         - "体感或陀螺仪 / Motion or gyro"
         - "三轴或六轴校准 / Calibration"
