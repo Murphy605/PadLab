@@ -45,6 +45,12 @@ PadLab 目前仍处于早期开发阶段。
 
 EasySMX D10 的公开版本、下载、使用说明和 Bug 反馈入口将在准备完成后陆续开放。
 
+## 反馈与参与
+
+PadLab 官方主线目前不接受外部代码贡献，但欢迎 Bug 报告、兼容性反馈、测试结果、日志、复现步骤、功能建议和技术分析。
+
+详细说明见 [反馈与参与指南](CONTRIBUTING.zh-CN.md)。
+
 ## 许可证
 
 除非另有说明，PadLab 原创源代码采用 **GNU General Public License v3.0 only (`GPL-3.0-only`)** 许可。详见 [LICENSE](LICENSE)。
@@ -109,6 +115,12 @@ Project direction, product design, physical hardware testing, behavioral validat
 PadLab is currently in early development.
 
 Public EasySMX D10 releases, downloads, documentation, and bug-reporting channels will be added as they become ready.
+
+## Feedback and Participation
+
+The official PadLab mainline currently does not accept external code contributions, but bug reports, compatibility feedback, test results, logs, reproduction steps, feature requests, and technical analysis are welcome.
+
+See the [Feedback and Participation Guide](CONTRIBUTING.md) for details.
 
 ## License
 
