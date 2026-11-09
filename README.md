@@ -57,7 +57,6 @@ EasySMX D10 的公开版本、下载、使用说明和 Bug 反馈入口将在准
 
 PadLab 是独立社区项目，与 EasySMX 无官方关联，也不代表 EasySMX 官方立场。
 
-
 完整开发过程见 [项目历史](HISTORY.zh-CN.md)。
 
 ---
@@ -122,6 +121,5 @@ Separate commercial licensing may be available for proprietary software, commerc
 This license applies only to original material that PadLab has the right to license. It does not relicense official EasySMX firmware, software, trademarks, product names, or other third-party materials.
 
 PadLab is an independent community project and is not affiliated with or endorsed by EasySMX.
-
 
 See [Project History](HISTORY.md) for the full development story.
