@@ -45,9 +45,22 @@ PadLab 目前仍处于早期开发阶段。
 
 EasySMX D10 的公开版本、下载、使用说明和 Bug 反馈入口将在准备完成后陆续开放。
 
----
+## 许可证
+
+除非另有说明，PadLab 原创源代码采用 **GNU General Public License v3.0 only (`GPL-3.0-only`)** 许可。详见 [LICENSE](LICENSE)。
+
+你可以按照 GPL-3.0-only 的条款自由使用、研究、修改和分发本项目。
+
+对于不希望受到 GPL 开源义务约束的专有软件、商业产品或 OEM 集成，可另行获得商业授权。商业授权条款将在实际需要时单独协商。
+
+本许可证仅适用于 PadLab 有权授权的原创内容，不对 EasySMX 官方固件、官方软件、商标、产品名称或其他第三方材料进行重新许可。
+
+PadLab 是独立社区项目，与 EasySMX 无官方关联，也不代表 EasySMX 官方立场。
+
 
 完整开发过程见 [项目历史](HISTORY.zh-CN.md)。
+
+---
 
 # PadLab
 
@@ -97,5 +110,18 @@ Project direction, product design, physical hardware testing, behavioral validat
 PadLab is currently in early development.
 
 Public EasySMX D10 releases, downloads, documentation, and bug-reporting channels will be added as they become ready.
+
+## License
+
+Unless otherwise stated, original PadLab source code is licensed under the **GNU General Public License v3.0 only (`GPL-3.0-only`)**. See [LICENSE](LICENSE).
+
+You may use, study, modify, and distribute this project under the terms of GPL-3.0-only.
+
+Separate commercial licensing may be available for proprietary software, commercial products, or OEM integrations that do not wish to operate under the GPL requirements. Commercial terms will be negotiated separately when needed.
+
+This license applies only to original material that PadLab has the right to license. It does not relicense official EasySMX firmware, software, trademarks, product names, or other third-party materials.
+
+PadLab is an independent community project and is not affiliated with or endorsed by EasySMX.
+
 
 See [Project History](HISTORY.md) for the full development story.
