@@ -1,6 +1,6 @@
 # Feedback and Participation in PadLab
 
-Language: [简体中文](https://github.com/Murphy605/PadLab/blob/main/CONTRIBUTING.md) | **English**
+Language: [简体中文](https://github.com/Murphy605/PadLab/blob/main/CONTRIBUTING.zh-CN.md) | **English**
 
 Thank you for your interest in PadLab.
 
