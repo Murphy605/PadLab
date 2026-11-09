@@ -47,6 +47,8 @@ EasySMX D10 的公开版本、下载、使用说明和 Bug 反馈入口将在准
 
 ---
 
+完整开发过程见 [项目历史](HISTORY.zh-CN.md)。
+
 # PadLab
 
 An independent open-source project focused on game controllers, motion input, controller utilities, and hardware experiments.
@@ -95,3 +97,5 @@ Project direction, product design, physical hardware testing, behavioral validat
 PadLab is currently in early development.
 
 Public EasySMX D10 releases, downloads, documentation, and bug-reporting channels will be added as they become ready.
+
+See [Project History](HISTORY.md) for the full development story.
