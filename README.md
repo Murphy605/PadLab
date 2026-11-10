@@ -59,6 +59,20 @@ EasySMX D10 的公开版本、下载和完整使用说明将在准备完成后�
 
 Bug 反馈与功能建议入口现已开放。
 
+## 社区
+
+### QQ 群
+
+中文社区：**神吹反馈群**
+
+群号：`1131983503`
+
+用于交流 EasySMX D10、PadLab、手柄、体感、游戏、硬件、AI、开发以及其他相关内容，也欢迎临时问题反馈和日常聊天。
+
+需要正式记录和长期追踪的 Bug 或功能建议，请继续使用 GitHub Issues。
+
+本群不是 EasySMX 官方群，PadLab 也不是 EasySMX 官方项目。
+
 ## Bug 与功能建议
 
 中文或 English 均可。两种语言使用同一套 Issue 系统，不需要重复提交。
@@ -217,6 +231,18 @@ PadLab is currently in early development and public-release preparation.
 Public EasySMX D10 releases, downloads, and complete usage documentation will be provided as they become ready.
 
 Bug reporting and feature-request channels are now open.
+
+## Community
+
+### Discord
+
+Join the PadLab community for discussion about the EasySMX D10, motion control, controllers, games, hardware, development, and related topics.
+
+**[Join the PadLab Discord](https://discord.gg/dEBXrFhEK8)**
+
+Casual troubleshooting and discussion are welcome on Discord.
+
+For bugs and feature requests that need formal tracking, please use GitHub Issues.
 
 ## Bugs and Feature Requests
 
