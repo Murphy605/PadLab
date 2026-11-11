@@ -59,6 +59,30 @@ EasySMX D10 的公开版本、下载和完整使用说明将在准备完成后�
 
 Bug 反馈与功能建议入口现已开放。
 
+## 界面概览
+
+以下截图来自当前实际运行中的开发版本。正式公开版本发布前，部分界面和行为仍可能继续调整。
+
+### 设备概览
+
+![设备概览](docs/screenshots/zh-CN/01-device-overview.png)
+
+### 按键与宏——按键模式
+
+![按键与宏——按键模式](docs/screenshots/zh-CN/02-button-mapping.png)
+
+### 按键与宏——模拟轴模式
+
+![按键与宏——模拟轴模式](docs/screenshots/zh-CN/03-analog-axis-mapping.png)
+
+### 体感控制
+
+![体感控制](docs/screenshots/zh-CN/04-motion-control.png)
+
+### 配置文件
+
+![配置文件](docs/screenshots/zh-CN/05-profiles.png)
+
 ## 社区
 
 ### QQ 群
@@ -231,6 +255,30 @@ PadLab is currently in early development and public-release preparation.
 Public EasySMX D10 releases, downloads, and complete usage documentation will be provided as they become ready.
 
 Bug reporting and feature-request channels are now open.
+
+## Interface Preview
+
+The following screenshots are from the current working development build. Some UI details and behavior may continue to change before the public release.
+
+### Device Overview
+
+![Device Overview](docs/screenshots/en/01-device-overview.png)
+
+### Buttons & Macros — Button Mode
+
+![Buttons & Macros — Button Mode](docs/screenshots/en/02-button-mapping.png)
+
+### Buttons & Macros — Analog Axis Mode
+
+![Buttons & Macros — Analog Axis Mode](docs/screenshots/en/03-analog-axis-mapping.png)
+
+### Motion Control
+
+![Motion Control](docs/screenshots/en/04-motion-control.png)
+
+### Profiles
+
+![Profiles](docs/screenshots/en/05-profiles.png)
 
 ## Community
 
