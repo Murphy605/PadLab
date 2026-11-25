@@ -8,7 +8,7 @@ PadLab 是一个独立开源项目，目前主要围绕 **EasySMX D10** 的 PC �
 
 ### EasySMX D10 PC 工具
 
-正在开发中的 EasySMX D10 PC 端控制与配置工具。
+已公开发布并持续开发中的 EasySMX D10 PC 端控制与配置工具。
 
 当前目标包括：
 
@@ -29,7 +29,7 @@ PadLab 是一个独立开源项目，目前主要围绕 **EasySMX D10** 的 PC �
 
 PadLab 不提供或重新分发 EasySMX 官方固件。用户需要自行取得对应的官方文件，再由工具进行处理。
 
-公开版本将以独立可执行文件提供。
+公开版本以独立可执行文件提供。
 
 ## 项目原则
 
@@ -53,15 +53,17 @@ PadLab 不把自动化测试结果直接等同于真实设备结论。涉及手�
 
 ## 当前状态
 
-PadLab 目前仍处于早期开发和公开发布准备阶段。
+**PadLab 0.1.0 已公开发布，项目仍处于早期开发阶段。**
 
-EasySMX D10 的公开版本、下载和完整使用说明将在准备完成后陆续提供。
+最新公开版本与下载：
+
+**[GitHub Releases](https://github.com/Murphy605/PadLab/releases)**
 
 Bug 反馈与功能建议入口现已开放。
 
 ## 界面概览
 
-以下截图来自当前实际运行中的开发版本。正式公开版本发布前，部分界面和行为仍可能继续调整。
+以下截图来自当前公开版本。后续版本中部分界面和行为仍可能继续调整。
 
 ### 设备概览
 
@@ -205,7 +207,7 @@ The actual development focus today is the EasySMX D10. The broader **PadLab** na
 
 ### EasySMX D10 PC Tools
 
-A PC-side control and configuration project for the EasySMX D10.
+A publicly released and actively developed PC-side control and configuration project for the EasySMX D10.
 
 Current goals include:
 
@@ -226,7 +228,7 @@ A standalone tool for processing a specific official EasySMX D10 receiver firmwa
 
 PadLab does not provide or redistribute official EasySMX firmware. Users must obtain the corresponding official file themselves before processing it with the tool.
 
-The public version will be provided as a standalone executable.
+The public version is provided as a standalone executable.
 
 ## Project Principles
 
@@ -250,15 +252,17 @@ PadLab does not treat automated test results as automatic proof of real-device b
 
 ## Current Status
 
-PadLab is currently in early development and public-release preparation.
+**PadLab 0.1.0 has been publicly released. The project is still in early development.**
 
-Public EasySMX D10 releases, downloads, and complete usage documentation will be provided as they become ready.
+Latest public release and downloads:
 
-Bug reporting and feature-request channels are now open.
+**[GitHub Releases](https://github.com/Murphy605/PadLab/releases)**
+
+Bug reporting and feature-request channels are open.
 
 ## Interface Preview
 
-The following screenshots are from the current working development build. Some UI details and behavior may continue to change before the public release.
+The following screenshots are from the current public release. Some UI details and behavior may continue to change in future versions.
 
 ### Device Overview
 
