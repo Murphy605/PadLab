@@ -1,0 +1,38 @@
+﻿PadLab Copyright Notice
+=======================
+
+Copyright (C) 2026 Murphy605
+
+PadLab original material that Murphy605 has the right to license is released
+under the GNU General Public License version 3 only (GPL-3.0-only).
+
+The full GNU GPL v3 license text is included in LICENSE.txt.
+
+PadLab visual assets created for this project include photographs taken by the
+project author and artwork generated for the project. No EasySMX official
+photographs or other third-party photographs are redistributed as PadLab
+project assets unless separately identified.
+
+Third-party components retain their own licenses. See the licenses/ directory.
+
+PadLab is an independent community project and is not affiliated with or
+endorsed by EasySMX.
+
+
+PadLab 版权声明
+=============
+
+Copyright (C) 2026 Murphy605
+
+Murphy605 有权授权的 PadLab 原创内容采用 GNU General Public License
+version 3 only（GPL-3.0-only）许可。
+
+完整 GNU GPL v3 许可证正文见 LICENSE.txt。
+
+PadLab 为本项目制作的视觉素材包括项目作者自行拍摄的照片，以及为本项目
+生成的视觉素材。除非另有明确说明，PadLab 项目素材不重新分发 EasySMX
+官方照片或其他第三方照片。
+
+第三方组件保留其各自许可证，详见 licenses/ 目录。
+
+PadLab 是独立社区项目，与 EasySMX 无官方关联，也不代表 EasySMX 官方立场。
