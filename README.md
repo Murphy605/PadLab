@@ -53,7 +53,7 @@ PadLab 不把自动化测试结果直接等同于真实设备结论。涉及手�
 
 ## 当前状态
 
-**PadLab 0.1.0 已公开发布，项目仍处于早期开发阶段。**
+**PadLab 0.2.5 已公开发布，项目仍处于早期开发阶段。**
 
 最新公开版本与下载：
 
@@ -77,9 +77,17 @@ Bug 反馈与功能建议入口现已开放。
 
 ![按键与宏——模拟轴模式](docs/screenshots/zh-CN/03-analog-axis-mapping.png)
 
-### 体感控制
+### 体感控制——倾斜控制
 
-![体感控制](docs/screenshots/zh-CN/04-motion-control.png)
+![体感控制——倾斜控制](docs/screenshots/zh-CN/04a-motion-control-tilt.png)
+
+### 体感控制——鼠标体感
+
+![体感控制——鼠标体感](docs/screenshots/zh-CN/04b-motion-control-gyro-mouse.png)
+
+### 体感控制——摇杆体感
+
+![体感控制——摇杆体感](docs/screenshots/zh-CN/04c-motion-control-gyro-stick.png)
 
 ### 配置文件
 
@@ -252,7 +260,7 @@ PadLab does not treat automated test results as automatic proof of real-device b
 
 ## Current Status
 
-**PadLab 0.1.0 has been publicly released. The project is still in early development.**
+**PadLab 0.2.5 has been publicly released. The project is still in early development.**
 
 Latest public release and downloads:
 
@@ -276,9 +284,17 @@ The following screenshots are from the current public release. Some UI details a
 
 ![Buttons & Macros — Analog Axis Mode](docs/screenshots/en/03-analog-axis-mapping.png)
 
-### Motion Control
+### Motion Control — Tilt Control
 
-![Motion Control](docs/screenshots/en/04-motion-control.png)
+![Motion Control — Tilt Control](docs/screenshots/en/04a-motion-control-tilt.png)
+
+### Motion Control — Gyro mouse
+
+![Motion Control — Gyro mouse](docs/screenshots/en/04b-motion-control-gyro-mouse.png)
+
+### Motion Control — Gyro Stick
+
+![Motion Control — Gyro Stick](docs/screenshots/en/04c-motion-control-gyro-stick.png)
 
 ### Profiles
 
